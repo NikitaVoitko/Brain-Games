@@ -4,3 +4,6 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+#import welcome user from cli
+from brain_games.cli import welcome_user
