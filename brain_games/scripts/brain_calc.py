@@ -2,9 +2,9 @@
 def main():
 
     # import game1 and engine
-    from brain_games.games.game1 import is_even_game
+    from brain_games.games.game2 import calculator_game
     from brain_games.engine.engine import game_engine
-    game_engine(is_even_game)
+    game_engine(calculator_game)
 
 
 if __name__ == '__main__':
