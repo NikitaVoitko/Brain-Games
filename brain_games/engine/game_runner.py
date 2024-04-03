@@ -1,6 +1,7 @@
 from brain_games.engine.engine import game_engine
 from brain_games.games.game2 import calculator_game
 from brain_games.games.game1 import is_even_game
+from brain_games.games.game3 import gcd_game
 
 
 def game_runner(game_name):
@@ -8,5 +9,7 @@ def game_runner(game_name):
         game_engine(calculator_game)
     elif game_name == "is_even_game":
         game_engine(is_even_game)
+    elif game_name == "gcd_game":
+        game_engine(gcd_game)
     else:
         print("No game found")

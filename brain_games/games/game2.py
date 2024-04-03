@@ -4,6 +4,7 @@ import random
 
 def calculator_game():
 
+    print('What is the result of the expression?')
     number1 = random.randint(50, 100)
     number2 = random.randint(1, 50)
     correct_answer = 0

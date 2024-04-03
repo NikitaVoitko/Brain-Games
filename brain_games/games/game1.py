@@ -4,6 +4,7 @@ import random
 
 def is_even_game():
 
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     number = random.randint(1, 100)
     question = f"Question: {number}"
     print(question)
