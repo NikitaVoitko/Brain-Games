@@ -13,4 +13,8 @@ Calculator game demo:
 
 GDC game demo:
 
-<script src="https://asciinema.org/a/rDrcU2FBJpeea45TrVwJQ3MHJ.js" id="asciicast-650616" async="true"></script>
+[![asciicast](https://asciinema.org/a/rDrcU2FBJpeea45TrVwJQ3MHJ.svg)](https://asciinema.org/a/rDrcU2FBJpeea45TrVwJQ3MHJ)
+
+Progression game demo:
+
+[![asciicast](https://asciinema.org/a/WsfEVAxM2ZfWMumWhZLmmct2r.svg)](https://asciinema.org/a/WsfEVAxM2ZfWMumWhZLmmct2r)

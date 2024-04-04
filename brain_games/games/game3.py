@@ -4,7 +4,7 @@ import math
 
 
 def gcd_game():
-    
+
     print("Find the greatest common divisor of given numbers.")
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
