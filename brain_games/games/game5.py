@@ -3,23 +3,21 @@ import random
 
 
 def is_prime(n):
-    prime_number = ""
     if n <= 1:
         prime_number = "no"
-        return prime_number
     elif n <= 3:
         prime_number = "yes"
-        return prime_number
     elif n % 2 == 0 or n % 3 == 0:
         prime_number = "no"
-        return prime_number
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
-            prime_number = "no"
-            return prime_number
-        i += 6
-    prime_number = "yes"
+    else:
+        i = 5
+        while i * i <= n:
+            if n % i == 0 or n % (i + 2) == 0:
+                prime_number = "no"
+                break
+            i += 6
+        else:
+            prime_number = "yes"
     return prime_number
 
 
