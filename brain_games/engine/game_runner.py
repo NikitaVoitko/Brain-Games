@@ -15,7 +15,5 @@ def game_runner(game_name):
         game_engine(gcd_game)
     elif game_name == "progression_game":
         game_engine(progression_game)
-    elif game_name == "is_prime_game":
-        game_engine(is_prime_game)
     else:
-        print("No game found")
+        game_engine(is_prime_game)
