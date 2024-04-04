@@ -3,6 +3,7 @@ from brain_games.games.game2 import calculator_game
 from brain_games.games.game1 import is_even_game
 from brain_games.games.game3 import gcd_game
 from brain_games.games.game4 import progression_game
+from brain_games.games.game5 import is_prime_game
 
 
 def game_runner(game_name):
@@ -14,5 +15,7 @@ def game_runner(game_name):
         game_engine(gcd_game)
     elif game_name == "progression_game":
         game_engine(progression_game)
+    elif game_name == "is_prime_game":
+        game_engine(is_prime_game)
     else:
         print("No game found")
