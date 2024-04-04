@@ -4,21 +4,17 @@ import random
 
 def is_prime(n):
     if n <= 1:
-        prime_number = "no"
+        return "no"
     elif n <= 3:
-        prime_number = "yes"
+        return "yes"
     elif n % 2 == 0 or n % 3 == 0:
-        prime_number = "no"
-    else:
-        i = 5
-        while i * i <= n:
-            if n % i == 0 or n % (i + 2) == 0:
-                prime_number = "no"
-                break
-            i += 6
-        else:
-            prime_number = "yes"
-    return prime_number
+        return "no"
+
+    for i in range(5, int(n**0.5) + 1, 6):
+        if n % i == 0 or n % (i + 2) == 0:
+            return "no"
+
+    return "yes"
 
 
 def is_prime_game():
