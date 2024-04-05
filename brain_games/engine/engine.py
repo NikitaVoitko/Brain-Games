@@ -14,7 +14,7 @@ def game_engine(game_func):
         else:
             print(f"'{user_answer}' is an incorrect answer, {name}! "
                   f"The correct answer was '{correct_answer}'."
-                  f" Let's try again.")
+                  f" Let's try again, {name}!")
             incorrect_answer = True
             break
     if not incorrect_answer:
