@@ -17,6 +17,17 @@ pycodestyle = ">=2.11.0,<2.12.0"
 pyflakes = ">=3.2.0,<3.3.0"
 
 [[package]]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "hexlet_code-0.1.0-py3-none-any.whl", hash = "sha256:5bc76726da66f9968e2444c51c1e5a5b812dd55102ca86a4ef201cdfea1723e8"},
+    {file = "hexlet_code-0.1.0.tar.gz", hash = "sha256:57a18da52367264255cf999ce7375d8a8dab93fedc1df90a625a7f2170865808"},
+]
+
+[[package]]
 name = "mccabe"
 version = "0.7.0"
 description = "McCabe checker, plugin for flake8"
@@ -63,4 +74,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f674363241494b5f454a7d6ee33900c00ec18129eda6200e853e3cc2dac69d18"
+content-hash = "497841efd8a8a2a7b83f301f515e4c467ec97aabf845e6f7bb3e43bd78d4c25c"

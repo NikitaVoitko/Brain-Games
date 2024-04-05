@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hexlet-code"
+name = "hexlet-code-project"
 version = "0.1.0"
 description = "This project consists of 5 brain games."
 authors = ["Nikita Voitko <voitko1994@gmail.com>"]
@@ -16,6 +16,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.12"
 prompt = "^0.4.1"
+hexlet-code = { version = "0.1.0", python = ">=3.11,<4.0" }
 
 
 [tool.poetry.group.dev.dependencies]
