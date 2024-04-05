@@ -15,7 +15,7 @@ def generate_arithmetic_progression():
 def progression_game():
     progression, missing_term = generate_arithmetic_progression()
     print("What number is missing in the progression?")
-    print(" ".join(map(str, progression)))
+    print("Question: " + " ".join(map(str, progression)))
     user_answer = input("Your answer: ")
     user_answer = int(user_answer)
     if user_answer == missing_term:
