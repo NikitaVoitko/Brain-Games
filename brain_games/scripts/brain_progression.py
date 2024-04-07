@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 def main():
 
-    # import game_runner and choose is_even as the game
-    from brain_games.engine.game_runner import game_runner
-    game_runner("progression_game")
+    # import game_engine and choose is_even as the game
+    from brain_games.engine.engine import game_engine
+    from brain_games.games.progression_game import progression_game
+
+    game_engine(progression_game)
 
 
 if __name__ == '__main__':
