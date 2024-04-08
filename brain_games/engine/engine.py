@@ -2,9 +2,10 @@ from brain_games.cli import welcome_user
 
 
 def game_engine(game_func):
-
+    # docstring missing
     name = welcome_user()
-    maximum_rounds = 3
+    maximum_rounds = 3 # could be a function parameter
+    
 
     for question_count in range(maximum_rounds):
         correct, correct_answer, user_answer = game_func()
