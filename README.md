@@ -30,6 +30,6 @@ Below you can find Asciinemas of all games, enjoy!
 
 [![asciicast](https://asciinema.org/a/WsfEVAxM2ZfWMumWhZLmmct2r.svg)](https://asciinema.org/a/WsfEVAxM2ZfWMumWhZLmmct2r)
 
-**Is the number shown Prime Game Demo:**
+**Is the number shown Prime Game Demoo:**
 
 [![asciicast](https://asciinema.org/a/ditFWMeBs5qhNmN0W9BJvnXLC.svg)](https://asciinema.org/a/ditFWMeBs5qhNmN0W9BJvnXLC)
