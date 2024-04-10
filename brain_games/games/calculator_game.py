@@ -1,18 +1,16 @@
-import prompt
 import random
+
+CALC_DESCRIPTION = "What is the result of the expression?"
 
 
 def calculator_game():
 
-    print('What is the result of the expression?')
     number1 = random.randint(50, 100)
     number2 = random.randint(1, 50)
     correct_answer = 0
     operators = ['+', '-', '*']
     random_operator = random.choice(operators)
-    question = f"Question: {number1} {random_operator} {number2}"
-    print(question)
-    answer = prompt.integer()
+    question = f"{number1} {random_operator} {number2}"
 
     if random_operator == '+':
         correct_answer = number1 + number2
@@ -21,4 +19,4 @@ def calculator_game():
     else:
         correct_answer = number1 * number2
 
-    return answer == correct_answer, correct_answer, answer
+    return correct_answer, question

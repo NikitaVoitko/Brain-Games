@@ -1,5 +1,7 @@
 import random
 
+IS_PRIME_DESCRIPTION = "What number is missing in the progression?"
+
 
 def generate_arithmetic_progression():
     start = random.randint(1, 10)
@@ -13,12 +15,6 @@ def generate_arithmetic_progression():
 
 
 def progression_game():
-    progression, missing_term = generate_arithmetic_progression()
-    print("What number is missing in the progression?")
-    print("Question: " + " ".join(map(str, progression)))
-    user_answer = input("Your answer: ")
-    user_answer = int(user_answer)
-    if user_answer == missing_term:
-        return True, missing_term, user_answer
-    else:
-        return False, missing_term, user_answer
+    progression, correct_answer = generate_arithmetic_progression()
+    question = " ".join(map(str, progression))
+    return correct_answer, question

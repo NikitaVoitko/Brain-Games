@@ -1,5 +1,7 @@
-import prompt
 import random
+
+IS_PRIME_DESCRIPTION = ('Answer "yes" if given number is prime. '
+                        'Otherwise answer "no".')
 
 
 def is_prime(n):
@@ -18,12 +20,6 @@ def is_prime(n):
 
 def is_prime_game():
     number = random.randint(1, 100)
-    prime_number = is_prime(number)
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    correct_answer = ""
-    question = f"Question: {number}"
-    print(question)
-    answer = prompt.string()
-    correct_answer = prime_number
-    print(correct_answer)
-    return answer == correct_answer, correct_answer, answer
+    correct_answer = is_prime(number)
+    question = f"{number}"
+    return correct_answer, question
