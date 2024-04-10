@@ -1,6 +1,6 @@
 import random
 
-IS_PRIME_DESCRIPTION = "What number is missing in the progression?"
+PROGRESSION_DESCRIPTION = "What number is missing in the progression?"
 
 
 def generate_arithmetic_progression():
