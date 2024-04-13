@@ -6,7 +6,7 @@ import brain_games.games.is_even_game
 
 def main():
 
-    run_game(brain_games.games.is_even_game.DESCRIPTION, 
+    run_game(brain_games.games.is_even_game.DESCRIPTION,
              brain_games.games.is_even_game.get_is_even_game)
 
 

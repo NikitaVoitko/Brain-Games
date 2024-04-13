@@ -6,7 +6,7 @@ import brain_games.games.calculator_game
 
 def main():
 
-    run_game(brain_games.games.calculator_game.DESCRIPTION, 
+    run_game(brain_games.games.calculator_game.DESCRIPTION,
              brain_games.games.calculator_game.get_calculator_game)
 
 

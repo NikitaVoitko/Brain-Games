@@ -5,7 +5,7 @@ import brain_games.games.is_prime_game
 
 
 def main():
-    run_game(brain_games.games.is_prime_game.DESCRIPTION, 
+    run_game(brain_games.games.is_prime_game.DESCRIPTION,
              brain_games.games.is_prime_game.get_is_prime_game)
 
 

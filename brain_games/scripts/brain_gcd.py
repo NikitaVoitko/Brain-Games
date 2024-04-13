@@ -5,7 +5,7 @@ import brain_games.games.gcd_game
 
 
 def main():
-    run_game(brain_games.games.gcd_game.DESCRIPTION, 
+    run_game(brain_games.games.gcd_game.DESCRIPTION,
              brain_games.games.gcd_game.get_gcd_game)
 
 

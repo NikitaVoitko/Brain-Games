@@ -6,7 +6,7 @@ import brain_games.games.progression_game
 
 def main():
 
-    run_game(brain_games.games.progression_game.DESCRIPTION, 
+    run_game(brain_games.games.progression_game.DESCRIPTION,
              brain_games.games.progression_game.get_progression_game)
 
 
