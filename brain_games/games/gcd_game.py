@@ -1,10 +1,10 @@
 import random
 import math
 
-GCD_DESCRIPTION = "Find the greatest common divisor of given numbers."
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
-def gcd_game():
+def get_gcd_game():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     question = f"{number1} {number2}"

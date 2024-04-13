@@ -1,11 +1,11 @@
 import random
 
 
-IS_EVEN_DESCRIPTION = ('Answer "yes" if the number is even, '
-                       'otherwise answer "no".')
+DESCRIPTION = ('Answer "yes" if the number is even, '
+               'otherwise answer "no".')
 
 
-def is_even_game():
+def get_is_even_game():
 
     number = random.randint(1, 100)
     question = f"{number}"

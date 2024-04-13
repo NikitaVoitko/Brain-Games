@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # import game_engine and choose is_even as the game
-from brain_games.engine.engine import game_engine
-from brain_games.games.is_even_game import is_even_game, IS_EVEN_DESCRIPTION
+from brain_games.engine.engine import run_game
+import brain_games.games.is_even_game
 
 
 def main():
 
-    game_engine(IS_EVEN_DESCRIPTION, is_even_game)
+    run_game(brain_games.games.is_even_game.DESCRIPTION, 
+             brain_games.games.is_even_game.get_is_even_game)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 import random
 
-PROGRESSION_DESCRIPTION = "What number is missing in the progression?"
+DESCRIPTION = "What number is missing in the progression?"
 
 
 def generate_arithmetic_progression():
@@ -14,7 +14,7 @@ def generate_arithmetic_progression():
     return progression, missing_term
 
 
-def progression_game():
+def get_progression_game():
     progression, correct_answer = generate_arithmetic_progression()
     question = " ".join(map(str, progression))
     return correct_answer, question

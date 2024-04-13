@@ -1,22 +1,20 @@
 import random
+import operator
 
-CALC_DESCRIPTION = "What is the result of the expression?"
+DESCRIPTION = "What is the result of the expression?"
 
 
-def calculator_game():
-
+def get_calculator_game():
     number1 = random.randint(50, 100)
     number2 = random.randint(1, 50)
-    correct_answer = 0
-    operators = ['+', '-', '*']
-    random_operator = random.choice(operators)
-    question = f"{number1} {random_operator} {number2}"
+    operator_functions = [
+        ('+', operator.add),
+        ('-', operator.sub),
+        ('*', operator.mul)
+    ]
 
-    if random_operator == '+':
-        correct_answer = number1 + number2
-    elif random_operator == '-':
-        correct_answer = number1 - number2
-    else:
-        correct_answer = number1 * number2
+    operator_symbol, operation_function = random.choice(operator_functions)
+    correct_answer = operation_function(number1, number2)
+    question = f"{number1} {operator_symbol} {number2}"
 
     return correct_answer, question
